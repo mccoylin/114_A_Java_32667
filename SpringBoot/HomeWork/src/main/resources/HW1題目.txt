@@ -1,0 +1,43 @@
+假設您想提供一個天氣API，其JSON格式如下：
+
+{
+   "coord": {
+      "lon": 7.367,
+      "lat": 45.133
+   },
+   "weather": [
+      {
+         "id": 501,
+         "main": "Rain",
+         "description": "moderate rain",
+         "icon": "10d"
+      }
+   ],
+   "main": {
+      "temp": 284.2,
+      "feels_like": 282.93,
+      "temp_min": 283.06,
+      "temp_max": 286.82,
+      "pressure": 1021,
+      "humidity": 60
+   },
+   "wind": {
+      "speed": 4.09,
+      "deg": 121
+   },
+   "rain": {
+      "1h": 2.73
+   }
+}
+
+
+1.  參考「範例參考」的設計
+
+請利用上述內容來設計你所需要的model類別：
+Coord、Weather、Main、Wind、Rain
+
+請替這些類別定義適當的建構子及參數、欄位及Getter和Setter方法
+
+2. 在你的Controller中加入名為 weatherApi 方法
+
+讓用戶端不論是透過瀏覽器、curl、或是Postman，皆能得到上述天氣的JSON資料

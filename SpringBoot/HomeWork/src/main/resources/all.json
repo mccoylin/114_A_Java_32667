@@ -1,0 +1,29 @@
+{
+  "coord": {
+    "lon": 9.367,
+    "lat": 95.133
+  },
+  "weather": [
+    {
+      "id": 688,
+      "main": "Rain",
+      "description": "moderate rain",
+      "icon": "10d"
+    }
+  ],
+  "main": {
+    "temp": 387.2,
+    "feels_like": 499.93,
+    "temp_min": 583.06,
+    "temp_max": 286.82,
+    "pressure": 1021,
+    "humidity": 40
+  },
+  "wind": {
+    "speed": 14.09,
+    "deg": 100
+  },
+  "rain": {
+    "1h": 91.73
+  }
+}
